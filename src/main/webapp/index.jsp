@@ -26,6 +26,8 @@
 				if (id == null){%>
 				<%} else if (id.equals("pelicula")){ %><%@include file ="WEB-INF/pelicula.jsp" %>
 				<%} else if (id.equals("peliculas")){ %><%@include file ="WEB-INF/peliculas.jsp" %>
+				<%} else if (id.equals("cine")){ %><%@include file ="WEB-INF/cine.jsp" %>
+				<%} else if (id.equals("cines")){ %><%@include file ="WEB-INF/cines.jsp" %>
 				<%}%>
 			</div>
 		</div>

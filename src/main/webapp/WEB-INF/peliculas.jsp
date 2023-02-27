@@ -1,7 +1,6 @@
 <%@page import="bean.Pelicula"%>
 <%@page import="java.util.List"%>
 <%@ page pageEncoding="ISO-8859-1"%>
-
 <br/><h1>Cartelera</h1><br/>
 <%	List<Pelicula> peliculas = (List<Pelicula>) session.getAttribute("data");
 	for (Pelicula pelicula : peliculas){
